@@ -22,7 +22,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   host: localhost
   username: pguser2
-  password: asdf 
+ 
 development:
   <<: *default
   database: programTestPOST_development
